@@ -70,3 +70,5 @@ Route::options('{all}', function () {
 
     return $response;
 })->where('all', '.*');
+
+// https://github.com/ajaxboy/flight-booking-api
